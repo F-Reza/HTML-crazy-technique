@@ -1,0 +1,15 @@
+@font-face{
+	font-family:"WendyLPStd-Medium";
+	src:url("../font/WendyLPStd-Medium.eot") format("eot"),
+	url("../font/WendyLPStd-Medium.woff") format("woff"),
+	url("../font/WendyLPStd-Medium.ttf") format("truetype"),
+	url("../font/WendyLPStd-Medium.svg#WendyLPStd-Medium") format("svg");
+}
+
+@font-face{
+	font-family:"SolaimanLipi";
+	src:url("../font/SolaimanLipi.eot") format("eot"),
+	url("../font/SolaimanLipi.woff") format("woff"),
+	url("../font/SolaimanLipi.ttf") format("truetype"),
+	url("../font/SolaimanLipi.svg#SolaimanLipi") format("svg");
+}

@@ -1,0 +1,575 @@
+/*---------------------
+Authorized::Forhad Reza
+-----------*/
+
+p{
+	font-weight:bold;
+	color:black;
+}
+h1{
+	color:red;	
+}
+#clr{
+	color:green;
+}
+.clr1{
+	color:blue;
+}
+.clr2{
+	color:orange;
+}
+.clr3{
+	font-weight:bold;
+}
+
+/*
+This is our comment for font style
+*/
+.style{
+	color:ff3377;
+	text-decoration:none;
+	text-decoration:underline;
+	text-decoration:overline;
+	text-decoration:line-through;
+	
+	text-decoration:overline line-through underline;
+	
+	font-family:arial;
+	font-size:1em;
+	font-size:100%;
+	font-size:20px;
+	line-height:150%;
+	font-weight:bold;
+	font-style:italic;
+	font-variant:small-caps;
+	text-transform:uppercase;
+	text-transform:lowercase;
+	
+	font: italic small-caps bold 20px/150% Arial;
+	
+}
+
+/*
+This is our comment for background
+*/
+.back{
+	background-image:url("../img/texh-2-870x500.jpeg");
+	background-repeat:no-repeat;
+	background-repeat:repeat-x;
+	background-repeat:repeat-y;
+	background-size:1340px 1000px;
+	background-size:cover;
+}
+
+/*
+This is our comment for table
+*/
+table{
+	width:600px;
+	text-align:center;
+	margin:50px auto;
+	background-color:#dddccc;
+	border-collapse:collapse;
+	border:3px solid blue;
+}
+table, th, td{
+	border-collapse:collapse;
+	border:3px solid blue;
+}
+.thead{
+	background-color:#bbcddd;
+}
+.tfoot{
+	text-align:left;
+	background-color:#ff77dd;
+	color:#fff
+}
+.clr4{
+	background-color:yellow;
+}
+table caption{
+	background-color:blue;
+}
+
+/* This is our Comment for div 
+*/
+.div1{
+	width:600px;
+	height:100px;
+	background-color:yellow;
+	padding:50px;
+	padding-left:100px;
+}
+.div2{
+	width:600px;
+	height:100px;
+	background-color:red;
+	margin-top:20px;
+	margin-left:50px;
+}
+.div3{
+	width:500px;
+	height:100px;
+	background-color:#ddd;
+	margin:0px auto;
+	margin-top:20px;
+	padding:50px 60px;
+	padding:50px 40px 60px 40px;
+	
+}
+.div4{
+	width:1300px;
+	height:10px;
+	background-color:black;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+/* This is our Comment for Selecting*/
+#div p,h2{
+	color:blue;
+}
+#div > p{
+	color:green;
+}
+#div > h2{
+	color:green;
+}
+
+/* This is our Comment for overflow */
+.div5{
+	border:2px solid red;
+	width:600px;
+	height:400px;
+	margin-left:200px;
+	margin-bottom:20px;
+	background-color:yellow;
+	background:url("../img/Windows.jpg");
+	overflow:hidden;
+	overflow:scroll;
+}
+
+/* This is our Comment for Display */
+.wrapper span{
+	background-color:black;
+	color:red;
+	display:none;
+	display:inline;
+	display:block;
+}
+
+/* This is our Comment for  Floating */
+.block1{
+	width:200px;
+	height:200px;
+	background-color:orange;
+	float:right;
+	float:left;
+	margin-left:20px;
+}
+.block2{
+	width:600px;
+	height:200px;
+	background-color:blue;
+	float:left;
+	float:right;
+	margin-right:20px;
+}
+
+/* This is our Comment for  Pseudo, Transition and Transform */ 
+.block3{
+	width:150px;
+	height:100px;
+	background-color:green;
+	margin-top:250px;
+	float:left;
+
+	transition:background-color 2s, width 3s ease-out ;
+	transition:all 2s;
+}
+.block3:hover{
+	background-color:blue;
+	color:red;
+	width:180px;
+	height:100px;
+	transform:skewX(90deg);
+	transform:skewY(180deg);
+	transform:rotate(360deg);
+}
+.block4{
+	width:100px;
+	height:100px;
+	background-color:red;
+	margin-top:250px;
+	margin-left:50px;
+	float:left;
+
+	transition:all 2s;
+}
+.block4:hover{
+	background-color:blue;
+	width:100px;
+	height:100;
+	transform:scale(1.5,1.5);
+}
+
+/* This is our Comment for List in HTML */
+.div6{
+	width:1300px;
+	height:10px;
+	background-color:black;
+	margin-top:400px;
+}
+ 
+.list1{
+	list-style-type:disc;
+	list-style-type:circle;
+	list-style-type:square;
+}
+
+/* This is our Comment for  Form */ 
+
+input[type=text]{
+	width:200px;
+	height:30;
+	border:1px solid red;
+	border-radius:5px;
+	color:red;
+	font-weight:bold;
+}
+textarea{
+	color:blue;
+}
+label{
+	color:green;
+}
+input[type=submit]{
+	width:100px;
+	height:30px;
+	padding:5px;
+}
+
+/* This is our Comment for  Button*/ 
+.btn1{
+	width:100px;
+	height:40;
+	font-size:18;
+	color:#000;
+	border-radius:20px 0px 15px 0px;
+	transition:all 1s ease;
+}
+.btn1:hover{
+	color:#fff;
+	background:#000;
+	cursor:pointer;
+}
+
+
+/* This is our Comment for  Clear*/
+.clear1{
+	border:2px solid red;
+}
+.clear2{
+	border:2px solid green;
+}
+.clear{
+	float:left;
+}
+p.clear2{
+	clear:left;
+	clear:both;
+}
+
+
+/* This is our Comment for  Linear and Radial Gradient*/ 
+.div7{
+	width:600px;
+	height:150px;
+	background:linear-gradient(to right, red, green, blue, yellow);
+}
+.div8{
+	width:600px;
+	height:150px;
+	background:radial-gradient(red 10%, green 50%, blue 70%, yellow 10%);
+}
+
+
+.div9{
+	width:280px;
+	height:280px;
+	background:red;
+	border-radius:225px;
+	float:left;
+	margin-left:200px;
+	margin-top:60px;
+}
+.div10{
+	width:700px;
+	height:400px;
+	background:green;
+}
+
+
+
+/* This is our Comment for  Animation*/
+.anmt1{
+	width:700px;
+	height:50px;
+	background:black;
+	
+	animation-name:anmt-1;
+	animation-duration:2s;
+	animation-iteration-count:10;
+}
+@keyframes anmt-1 {
+	from{background-color:blue}
+	to{background-color:red}
+}
+
+.anmt2{
+	width:100px;
+	height:100;
+	background:black;
+	border-radius:65%;
+	animation-name:anmt-2;
+	animation-duration:4s;
+	animation-iteration-count:5;
+	animation-delay:1s;
+	position:relative;
+	animation-direction:alternate;
+}
+@keyframes anmt-2 {
+	0%{background-color:parpl}
+	20%{background-color:yellow}
+	30%{background-color:red}
+	40%{background-color:orange}
+	50%{background-color:blue}
+	70%{background-color:green}
+	80%{background-color:pink}
+	100%{background-color:red}
+	
+	from{left:0}
+	to{left:600px}
+}
+
+.anmt3{
+	width:500px;
+	height:300px;
+	background:black;
+	float:left;
+	margin-left:100px;
+	margin-right:200px;
+	margin-top:100px;
+	margin-bottom:200px;
+	
+	animation-name:anmt-3;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+}
+@keyframes anmt-3 {
+	from{background-color:blue}
+	to{background-color:red}
+}
+
+.anmt4{
+	width:100px;
+	height:100;
+	background:black;
+	border-radius:65%;
+	position:relative;
+
+	animation-name:anmt-4;
+	animation-duration:4s;
+	animation-delay:1s;
+	animation-iteration-count:infinite;
+	animation-direction:;
+}
+@keyframes anmt-4 {
+	0%{left:0; top:0}
+	25%{left:600px; top:0; background:red}
+	50%{left:600px; top:400px; background:green}
+	75%{left:0; top:400px; background:yellow}
+	100%{left:0; top:0; background:blue}
+}
+
+
+/*---------------------
+Authorized::Forhad Reza
+-----------*/
+
+/* This is our Comment for  iframe*/
+iframe{
+	width:950px; 
+	height:400px;
+	margin-left:170px;
+	border:2px solid blue;
+}
+
+
+
+/* This is our Comment for  Making 3 column */
+.clm{
+	width:960px; 
+	margin:50px auto;
+}
+.box{
+	width:300px;
+	float:left;
+	margin-right:30px;
+}
+
+.box h2{
+	color:red;
+}
+.box p{
+	text-align:justify;
+}
+.clm3{
+	margin-right:0;
+}
+
+.box a{
+	text-decoration:none;
+	background-color:blue;
+	color:red;
+	margin:0 auto;
+	display:block;
+	text-align:center;
+	padding:3px 0;
+	
+	transition:all 1s ease;
+}
+ .box a:hover{
+	 background:#000;
+	 color:#fff;
+}
+
+
+
+/* This is our Comment for  Menu*/ 
+ul#menu{
+	padding:0;
+	list-style-type:none;
+	width:960px;
+	background:#4E4E4E;
+	border-bottom:5px solid orange;
+	min-height:38px;
+}
+#menu li{
+	float:left;
+	border-right:1px solid #605B5B;
+	border-left:1px solid #2B2A2A;
+	
+	position:relative;
+} 
+
+#menu li:first-child{
+	border-left:none;
+}
+#menu li:last-child{
+	border-right:none;
+}
+
+
+#menu li a{
+	text-decoration:none;
+	color:#fff;
+	background:#4E4E4E;
+	padding:10px 20px;
+	transition:all 0.3s ease;
+	display:block;
+} 
+#menu li a:hover{
+	background:orange;
+} 
+
+
+/*Making Dropdown Menu  */
+#menu li ul{
+	list-style-type:none;
+	padding:0;
+	position:absolute;
+	left:-99999px;
+}
+#menu li:hover ul{
+	left:0;
+}
+
+#menu li ul li{
+	float:none;
+	border-right:none;
+	border-left:none;
+	border-top:1px solid #605B5B;
+	border-bottom:1px solid #2B2A2A;
+	width:200px;
+}
+
+/*Making Sub Dropdown Menu  */
+#menu li ul li ul{
+	position:absolute;
+	top:-99999px;
+}
+#menu li ul li:hover ul{
+	top:0;
+	left:200px;
+}
+
+
+
+
+#news{
+	width:150px;
+	height:20px;
+	background:red;
+	text-align:center;
+	padding:10px;
+	border:1.5px solid black;
+	border-radius:0 100px 0 0;
+	float:left;
+	margin-right:5px;	
+} 
+.scroll{
+	width:775px;
+	overflow:hidden;
+	float:left;
+
+	font-family:roman;
+	font-size:20px;
+	font-weight:bold;
+	font-style:italic;
+	color:ff1177;
+} 
+ 
+ 
+
+/* Using Custom Font*/
+#font{
+	font-family:WendyLPStd-Medium;
+	font-size:30px;
+	color:red;
+	width:960px;
+	text-align:justify;
+}
+#bangla{
+	font-family:SolaimanLipi;
+	font-size:30px;
+	color:red;
+} 
+ 
+
+ 
+ 
+/* This is our Comment for Intarnal CSS on Nivo-slider */ 
+/*===================*/
+/*=== Main Styles ===*/
+/*===================*/
+
+.slider-wrapper { 
+	width: 75%; 
+	margin:;
+} 
+ 
+ 
+/*---------------------
+Authorized::Forhad Reza
+-----------*/
